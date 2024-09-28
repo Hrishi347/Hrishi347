@@ -1,0 +1,8 @@
+n=int(input())
+n+=1
+while n<=9999:
+ dig=str(n)
+ if len(set(dig))==4:
+ break
+ n+=1
+print(n)
